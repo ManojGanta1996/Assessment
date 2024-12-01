@@ -1,13 +1,17 @@
-# Ignore virtual environment
+# Exclude venv directory
 venv/
 
-# Ignore specific large files
-data/base_data.csv
-
-# Example of ignoring all CSV files in a folder
-*.csv
-
-# Ignore other unnecessary files or directories
+# Exclude .DS_Store (macOS specific)
 .DS_Store
+
+# Exclude PyCache files
+__pycache__/
+
+# Exclude log files
 logs/
+
+# Exclude output data if not required
 output/
+
+# Exclude parquet files
+*.parquet
